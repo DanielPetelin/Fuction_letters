@@ -4,7 +4,7 @@
         val,
         oldVal,
         lastChar;
-    inp.addEventListener('keyup', function(e) {
+    inp.addEventListener("keyup", function(e) {
         val = this.value;
         console.log(val);
         if (e.keyCode === 8) {
