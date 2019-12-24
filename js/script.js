@@ -4,4 +4,7 @@
         val,
         oldVal,
         lastChar;
+    inp.addEventListener("keyup", function(e){
+        
+    });
 })();
