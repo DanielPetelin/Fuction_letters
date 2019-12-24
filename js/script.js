@@ -26,7 +26,7 @@
     if (letters[letter]) {
         letters[letter] = letters[letter] + 1;
     } else {
-        letters[letter] - 1;
+        letters[letter] = 1;
     }
   }
 })();
