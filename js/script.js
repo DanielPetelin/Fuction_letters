@@ -20,6 +20,8 @@
             letter = arr[arr.length - 1].toUpperCase();
     if (letters[letter]) {
         letters[letter] = letters[letter] + 1;
+    } else {
+        letters[letter] - 1;
     }
   }
 })();
