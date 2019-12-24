@@ -8,7 +8,8 @@
         val = this.value;
         console.log(val);
         if (e.keyCode === 8) {
-
+            lastChar = oldVal.slice(-1).toUpperCase;
+            letters[lastChar] = letters[lastChar] - 1;
         } else if (e.keyCode >= 65 && e.keyCode <= 90) {
             if(val.length) {
                 strToArr(val);
