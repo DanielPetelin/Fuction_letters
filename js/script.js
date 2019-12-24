@@ -1,10 +1,10 @@
 (function(){
     let letters = {},
-        inp = document.getElementById("input-field"),
+        inp = document.getElementById("input"),
         val,
         oldVal,
         lastChar;
-    inp.addEventListener("keyup", function(e) {
+    inp.EventListener("keyup", function(e) {
         val = this.value;
         if (e.keyCode === 8) {
             lastChar = oldVal.slice(-1).toUpperCase;
