@@ -18,5 +18,8 @@
     function strToArr(str) {
         var arr = str.split(""),
             letter = arr[arr.length - 1].toUpperCase();
+    if (letters[letter]) {
+        letters[letter] = letters[letter] + 1;
     }
+  }
 })();
