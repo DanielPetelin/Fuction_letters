@@ -14,6 +14,7 @@
                 strToArr(val);
             }
         }
+        oldVal = val;
     });
     function strToArr(str) {
         var arr = str.split(""),
