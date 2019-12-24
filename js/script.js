@@ -8,7 +8,7 @@
         var = this.value;
         if (e.keyCode === 8) {
 
-        } else if (e.keyCode) {
+        } else if (e.keyCode >= 65 && e.keyCode <= 90) {
 
         }
     });
