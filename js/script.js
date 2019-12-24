@@ -5,6 +5,11 @@
         oldVal,
         lastChar;
     inp.addEventListener("keyup", function(e){
-        
+        var = this.value;
+        if (e.keyCode === 8) {
+
+        } else if (e.keyCode) {
+
+        }
     });
 })();
