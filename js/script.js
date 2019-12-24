@@ -16,6 +16,7 @@
         }
     });
     function strToArr(str) {
-
+        var arr = str.split(""),
+            letter = arr[arr.length - 1].toUpperCase();
     }
 })();
