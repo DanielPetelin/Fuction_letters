@@ -1,12 +1,11 @@
 (function(){
-    let laters = {},
+    let letters = {},
         inp = document.getElementById("input-field"),
         val,
         oldVal,
         lastChar;
     inp.addEventListener("keyup", function(e) {
         val = this.value;
-        console.log(val);
         if (e.keyCode === 8) {
             lastChar = oldVal.slice(-1).toUpperCase;
             letters[lastChar] = letters[lastChar] - 1;
@@ -19,6 +18,7 @@
             }
         }
         oldVal = val;
+        console.log(letters);
     });
     function strToArr(str) {
         var arr = str.split(""),
